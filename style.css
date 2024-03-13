@@ -587,7 +587,7 @@ body {
     transition: .2s;
     content: "";
     opacity: 0;
-    background: url('/images/check.png') no-repeat;
+    background: url('./images/check.png') no-repeat;
 }
 .cost__check-input:checked + .cost__check-decor::before {
     transition: .2s;
