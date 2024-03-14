@@ -699,6 +699,12 @@ body {
 .button-order__line-right {
     right: -10px;
 }
+.reports-swiper {
+    width: 1000px;
+}
+.reports-slide img {
+    width: 100%;
+}
 
 @media screen and (max-width: 1440px) {
     .analitycs__wrapper {

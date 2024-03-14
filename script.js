@@ -1,3 +1,11 @@
+const report = new Swiper('.reports-swiper', {
+    loop: true,
+    direction: 'horizontal',
+    autoplay: {
+    delay: 5000
+  }
+})
+
 let map;
 
 async function initMap() {
