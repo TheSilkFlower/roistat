@@ -1,6 +1,7 @@
 const report = new Swiper('.reports-swiper', {
     loop: true,
     direction: 'horizontal',
+    slidesPerView: 1,
     autoplay: {
     delay: 5000
   }

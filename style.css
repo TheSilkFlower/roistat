@@ -486,6 +486,9 @@ body {
     font-weight: 700;
     color: #0D2A43;
 }
+.reports__title-mobile {
+    display: none;
+}
 .reports__description {
     text-align: center;
 }
@@ -726,6 +729,9 @@ body {
     .advantages-content {
         flex-direction: column;
     }
+    .advantages-content__block {
+        max-width: 330px;
+    }
     .through {
         width: 100%;
     }
@@ -756,8 +762,31 @@ body {
     .work {
         display: none;
     }
-    .reports {
+    .reports__wrapper {
+        padding: 0 20px;
+    }
+    .reports__title {
         display: none;
+    }
+    .reports__title-mobile {
+        display: block;
+        font-weight: 700;
+        color: #0D2A43;
+        text-align: center;
+    }
+    .reports__block {
+        padding-top: 20px;
+    }
+    .reports__description {
+        text-align: left;
+    }
+    .reports-swiper {
+        min-width: 250px;
+        max-width: 600px;
+        width: 100%;
+    }
+    .reports__inner {
+        padding-bottom: 30px;
     }
     .cost {
         display: none;
