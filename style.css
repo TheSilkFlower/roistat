@@ -802,6 +802,10 @@ body {
     .through__inner {
         padding-top: 30px;
     }
+    .integration__wrapper {
+        padding-bottom: 0;
+        padding: 0 20px 40px;
+    }
     .integration__container {
         max-width: 600px;
         flex-direction: column;
@@ -811,7 +815,6 @@ body {
         text-align: center;
     }
     .integration__content {
-        padding: 0 20px;
         max-width: none;
     }
     .work__wrapper {
