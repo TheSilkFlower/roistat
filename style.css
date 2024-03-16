@@ -773,11 +773,19 @@ body {
     .analitycs {
         display: none;
     }
+    .advantages__wrapper {
+        padding: 0 20px 40px;
+    }
+    .advantages__title {
+        margin: 0;
+        padding-top: 30px;
+    }
     .advantages-content {
         flex-direction: column;
     }
     .advantages-content__block {
         max-width: 330px;
+        width: 100%;
     }
     .through {
         width: 100%;
