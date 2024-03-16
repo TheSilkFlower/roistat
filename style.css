@@ -495,6 +495,11 @@ body {
 .reports__img {
     padding-bottom: 30px;
 }
+.reports__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .cost__wrapper {
     position: relative;
     display: flex;
@@ -701,6 +706,25 @@ body {
 }
 .button-order__line-right {
     right: -10px;
+}
+.circle {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.circle__min {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #9BA4AF
+}
+.circle__max {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1.5px solid #0D2A43;
 }
 .reports-swiper {
     width: 1000px;
