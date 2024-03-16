@@ -265,7 +265,7 @@ body {
 .through__inner-arrow, .reports__inner-arrow {
     position: relative;
 }
-.through__inner-arrow div, .reports__inner-arrow div {
+.through__inner-arrow div, .reports__inner-arrow div, .work__inner-arrow div{
     width: 170px;
     height: 1px;
     background-color: #9BA4AF;
@@ -469,6 +469,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 15px 0;
+}
+.work__block-mobile {
+    display: none;
+}
+.work__inner {
+    display: none;
 }
 .reports__wrapper {
     display: flex;
@@ -790,12 +796,83 @@ body {
         padding: 0 20px;
         max-width: none;
     }
-    .work {
+    .work__wrapper {
+        padding: 0 20px;
+    }
+    .work__info {
+        max-width: 600px;
+        padding-bottom: 20px;
+    }
+    .work__title {
+        text-align: center;
+    }
+    .work__description {
+        text-align: left;
+        font-weight: normal;
+    }
+    .work__table, .work__wrapper img {
         display: none;
     }
-    /* .work__table, .work__wrapper img {
-        display: none;
-    } */
+    .work__block-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 10px;
+    }
+    .work__content-mobile {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 250px;
+        max-width: 600px;
+        width: 100%;
+        background-color: #F5F6F7;
+    }
+    .work__num {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #0D2A43;
+        opacity: .4;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .work__details-01 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .work__data {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .work__data img {
+        display: block;
+        width: 20px;
+    }
+    .work__data-info {
+        font-size: 16px;
+        font-weight: 600;
+        color: #0D2A43;
+    }
+    .work__result {
+        text-align: left;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .work__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .work__inner-arrow {
+        position: relative;
+    }
     .reports__wrapper {
         padding: 0 20px;
     }
