@@ -5,6 +5,9 @@ body {
     font-family: 'Montserrat';
 }
 
+.header-mobile {
+    display: none;
+}
 .header__wrapper {
     margin: 0 50px 0 80px;
     height: 100px;
@@ -53,7 +56,7 @@ body {
     align-items: center;
     gap: 15px;
 }
-.header__burger-img {
+.header__menu {
     cursor: alias;
 }
 .advantages__wrapper {
@@ -750,8 +753,22 @@ body {
     }
 }
 @media screen and (max-width: 1200px) {
-    header {
+    .header__wrapper {
         display: none;
+    }
+    .header-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    .header-mobile__logo {
+        width: 150px;
+        cursor: pointer;
+    }
+    .header-mobile__menu {
+        width: 40px;
+        cursor: alias;
     }
     .analitycs {
         display: none;
@@ -786,6 +803,7 @@ body {
         padding-top: 30px;
     }
     .integration__container {
+        max-width: 600px;
         flex-direction: column;
         gap: 15px;
     }
