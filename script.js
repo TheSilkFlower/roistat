@@ -7,6 +7,15 @@ const report = new Swiper('.reports-swiper', {
   }
 })
 
+const work = new Swiper('.work-swiper', {
+    loop: true,
+    direction: 'horizontal',
+    slidesPerView: 1,
+    autoplay: {
+    delay: 5000
+  }
+})
+
 let map;
 
 async function initMap() {
