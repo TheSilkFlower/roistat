@@ -780,7 +780,7 @@ body {
         cursor: pointer;
     }
     .header-mobile__menu {
-        width: 40px;
+        width: 30px;
         cursor: alias;
     }
     .analitycs {
@@ -887,9 +887,9 @@ body {
     }
     .work__details-02 {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 20px;
+        width: 100%;
     }
     .work__details-03 {
         width: 90%;
@@ -908,18 +908,15 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px;
     }
     .work__data-logo img {
         display: block;
     }
     .work__data-logo-frame {
         position: absolute;
-        width: 115px;
     }
     .work__data-logo-text {
         z-index: 10;
-        width: 110px;
     }
     .work__data-arrow {
         position: relative;
