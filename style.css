@@ -111,6 +111,9 @@ body {
     width: 100%;
     gap: 250px;
 }
+.analitycs__wrapper-mobile {
+    display: none;
+}
 .analitycs__inner {
     display: flex;
 }
@@ -766,6 +769,9 @@ body {
     }
 }
 @media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 20px;
+    }
     .header__wrapper {
         display: none;
     }
@@ -776,7 +782,7 @@ body {
         padding: 10px 20px;
     }
     .header-mobile__logo {
-        width: 150px;
+        width: 120px;
         cursor: pointer;
     }
     .header-mobile__menu {
@@ -784,7 +790,86 @@ body {
         cursor: alias;
     }
     .analitycs {
+        padding: 0px;
+    }
+    .analitycs__wrapper {
         display: none;
+    }
+    .analitycs__wrapper-mobile {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+    .analitycs__inner {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .analitycs__nav, .analitycs__nav_color {
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .analitycs__nav {
+        color: #9BA4AF
+    }
+    .analitycs__nav_color {
+        color: #0D2A43;
+    }
+    .analitycs__nav_border{
+        border-bottom: 1px solid #0D2A43;
+    }
+    .analitycs__navigation-mobile {
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .analitycs__block-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .analitycs__logo-mobile {
+        position: relative;
+        top: 15px;
+        color: #F5F6F7;
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .analitycs__gallery-mobile {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+    }
+    .analitycs__gallery-mobile img:first-child {
+        position: relative;
+        left: 30px;
+        transform: rotate(25deg);
+        width: 80%;
+    }
+    .analitycs__gallery-mobile img:last-child {
+        position: relative;
+        top: -43px;
+    }
+    .analitycs__gallery-mobile img {
+        width: 100%;
+    }
+    .analitycs__title-mobile {
+        margin: 0;
+        padding-bottom: 20px;
+        text-align: center;
+        color: #0D2A43;
+    }
+    .analitycs__description-mobile {
+        font-size: 14px;
+        color: #0D2A43;
     }
     .advantages__wrapper {
         padding: 0 20px 40px;
@@ -798,6 +883,9 @@ body {
     }
     .advantages-content__block {
         max-width: 330px;
+        width: 100%;
+    }
+    .advantages-content__advantage {
         width: 100%;
     }
     .through {
