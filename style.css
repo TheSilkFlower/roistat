@@ -558,7 +558,7 @@ body {
     height: 125px;
 }
 .cost-form__user-name-input {
-    background: url(./images/us.png) no-repeat center left 10px;
+    background: url('./images/us.svg') no-repeat center left 10px;
     padding-left: 40px;
     height: 50px;
     width: 350px;
@@ -568,7 +568,7 @@ body {
     outline: none;
 }
 .cost-form__user-phone-input {
-    background: url(./images/ph.png) no-repeat center left 10px;
+    background: url('./images/ph.svg') no-repeat center left 10px;
     padding-left: 40px;
     height: 50px;
     width: 350px;
@@ -578,7 +578,7 @@ body {
     outline: none;
 }
 .cost-form__text {
-    background: url(./images/em.png) no-repeat top 15px left 10px;
+    background: url('./images/em.svg') no-repeat top 15px left 10px;
     height: 89%;
     resize: none;
     border: none;
