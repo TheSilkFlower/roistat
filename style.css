@@ -583,11 +583,11 @@ body {
     outline: none;
 }
 .cost-form__text {
-    background: url('./images/em.svg') no-repeat top 15px left 10px;
-    height: 89%;
+    background: url('./images/em.svg') no-repeat top 8px left 10px;
+    height: 91%;
     resize: none;
     border: none;
-    padding: 17px 0 0 40px;
+    padding: 15px 0 0 40px;
     border-bottom: 1px solid #0D2A43;
     background-color: #F5F6F7;
     outline: none;
@@ -666,7 +666,8 @@ body {
     align-items: center;
     gap: 5px;
 }
-.cost__info-mail {
+.cost__info-mail a{
+    text-decoration: none;
     font-size: 12px;
     font-weight: 500;
     color: #D03D34;
