@@ -51,6 +51,11 @@ body {
     color: #D03D34;
     cursor: pointer;
 }
+.header__phone1 a, .header__phone2 a {
+    border-bottom: none;
+    text-decoration: none;
+    color: #0D2A43;
+} 
 .header__contacts {
     display: flex;
     align-items: center;
