@@ -52,6 +52,7 @@ body {
     cursor: pointer;
 }
 .header__phone1 a, .header__phone2 a {
+    font-weight: 600;
     border-bottom: none;
     text-decoration: none;
     color: #0D2A43;
